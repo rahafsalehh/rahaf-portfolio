@@ -1,0 +1,407 @@
+
+
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(255, 255, 255); 
+  /* color: #f0f0f0; */
+}
+
+.navigation {
+  width: 220px;
+  height: 100vh;
+  /* padding:20px; */
+  background-color: #1c1027e9;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: -4px 0 16px rgba(0, 0, 0, 0.6);
+  z-index: 1;
+
+}
+
+
+
+#modeButton{
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index:1;
+  border:none;
+  background-color:orange;
+  color:black;
+  padding:10px;
+  border-radius:8px;
+}
+
+#modeButton:hover{
+  background-color: #ffb702;
+  color: black;
+  cursor: pointer;
+  transition: all 0.1s ease;
+}
+#modeButton:active{
+  transform: scaleX(1.1) scaleY(0.9);
+}
+
+.navigation ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  margin-top:20px;
+}
+
+.navigation li {
+  width: 100%;
+}
+
+.box {
+  padding: 60px 10px;
+  text-align: center;
+  border-bottom: 2px solid #2f124d;
+  color: #eea9ff;
+  font-weight: bold;
+}
+
+.navigation a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  font-size: 14px;
+  padding: 7px 10px;
+  /* border-bottom: 1px solid white; */
+  width: 50%;
+  margin-left:50px;
+  margin-top:40px;
+  transition: 0.3s;
+  border-radius:10px;
+  /* cursor: url('../images/cursor.png'), auto; */
+  cursor: pointer;
+
+  background-color: transparent;
+}
+
+/* .navigation .index{
+  color: #450068; 
+
+  background-color: #fceeff;
+} */
+
+
+.navigation a:hover {
+
+  /* border-bottom: 1px solid rgba(255, 255, 255, 0); */
+  background-color: #fceeff;  
+  color: #450068; 
+}
+
+main {
+  /* padding: 100px 60px 60px 60px; */
+
+
+  margin-right: 240px; /* to make space for the sidebar */
+}
+
+footer {
+  /* margin-top:100px;
+  padding: 40px 80px;
+  text-align: center;
+  color: #ccc;
+  border-top: 2px solid #2e1143; */
+  padding-left:320px;
+  padding-bottom:20px;
+  padding-top:100px;
+
+}
+
+.footerContent {
+  display:flex;
+  align-items: center;
+  flex-direction:row;
+  margin-top:17px;
+  padding:10px;
+  border-top: 10px solid #2e1143;
+  border-right: 6px solid #2e1143;
+  border-top-right-radius: 60px;
+  justify-content: center;
+  width:96%;
+}
+
+.footerContent a{
+  margin-left:10px;
+  font-size: 28px;
+  color:rgb(255, 140, 0);
+}
+
+
+.footerContent a:hover{
+  color:black;
+}
+.footerLine{
+  border-top: 20px solid #2e1143;
+  border-right: 16px solid #2e1143;
+  margin-right:100px;
+  border-top-right-radius: 100px;
+
+ 
+}
+
+.footerContent p {
+    margin-left:70px;
+
+}
+
+.typewriter {
+  transform: skewY(10deg);
+  margin-top:200px;
+  margin-left:380px;
+  margin-bottom:60px;
+}
+
+.typewriter p{
+  margin-top: 40px;
+ width:360px;
+ color:azure;
+}
+
+.angleBackground {
+   display: flex;
+  /* background-color: #0b0812; */
+  padding: 140px 0px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #0b0812;
+  transform: skewY(-10deg);
+  position:relative;
+  top: -170px;
+}
+
+.typewriter h1 {
+  background:red;
+  color: #eee;
+  font-family: monospace;
+  margin: 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid;
+  animation: typing 3s steps(30, end) forwards, blink 1s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+
+.typewriter span {
+  color: #ffff00; }
+
+
+.subTitle {
+  color: #380b00;
+  margin-left: 400px;
+  padding-bottom: 7px;
+  margin-top: 80px;
+  border-bottom: 4px solid  #380b00;
+  width: fit-content;
+  font-size: 22px;
+  font-weight: bold;
+
+
+}
+
+.project{
+  background-color: #2a1040;
+  margin-left: 200px;
+  padding: 30px;
+  border-radius: 20px;
+  color: #ddd;
+  line-height: 1.6;
+}
+
+
+#athul{
+  margin-top:70px;
+  border-radius:100px;
+}
+
+
+.pfpAndtxt{
+  display: flex;
+  flex-direction: row;
+  margin-left: 350px;
+  margin-top:20px;
+
+}
+
+.pfpAndtxt i{
+  color:rgb(168, 29, 255);
+  font-size: 60px;
+  margin-top: 150px;
+  margin-left: 50px;
+}
+
+
+
+
+
+.socialIcons a{
+  color:white;
+  font-size:40px;
+  margin-right: 50px;
+}
+
+.socialIcons a:hover{
+  color:rgb(255, 234, 234);
+  transition: all 0.3s ease;
+}
+
+.sociaIconsl{
+  margin-top:70px;
+
+}
+
+.test{
+  padding-top:5px;
+  /* padding-bottom:200px; */
+      position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: #ed9955;
+    z-index: -1;
+    /* overflow: hidden; */
+}
+
+.projectBox{
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+  margin-left:360px;
+  margin-top:100px;
+  padding-bottom:35px;
+}
+
+.projectDescription{
+  width:300px;
+}
+
+
+
+
+.projectLanguages{
+display:flex;
+flex-direction:row;
+ 
+}
+
+.projectLanguages p{
+  margin-right:10px;
+  font-size:30px;
+  background-color: rgb(61, 0, 72);
+  padding:10px 20px;
+  color:orange;
+}
+
+
+#interpay{
+  border-radius:12px;
+padding:2px;
+background-color:rgb(110, 39, 151);
+}
+
+.group{
+  text-align: center;
+
+}
+
+.group p{
+  margin-left:53px;
+}
+
+#aboutMeBox{
+  /* background-color: rgb(255, 146, 52); */
+  background-color:orange;
+  border-top: solid 6px  rgb(90, 0, 180);
+  border-bottom: solid 17px  rgb(90, 0, 180);
+  width:800px;
+  height:450px;
+  border-radius:25% 75% 63% 37% / 24% 64% 36% 76%  ;
+  margin-left: 370px;
+  margin-top: 100px;
+  
+  padding:20px;
+
+
+}
+#aboutMeBox p{
+  width:560px;
+  line-height:30px;
+  color:rgb(254, 250, 255);
+  font-weight:bold;
+  margin-left:90px;
+  margin-top:100px;
+  font-size:20px;
+
+}
+
+#contactMe{
+  /* display:flex;
+  justify-content: center; */
+  margin-left:400px;
+  margin-top:100px;
+  text-align: center;
+
+
+}
+
+#contactMe button{
+    width:250px;
+    height:130px;
+    font-size:20px;
+    background-color: #ffa413;
+    color:rgb(254, 250, 255);
+    
+
+    border: none;
+      border-top: solid 6px  rgb(90, 0, 180);
+  border-bottom: solid 9px  rgb(90, 0, 180);
+  border-radius: 51% 49% 84% 16% / 46% 41% 59% 54% ;
+  transition:0.8s;
+  }
+
+  #contactMe button:hover{
+    color: #ffb702;
+    background-color:rgb(0, 0, 0);
+    transform: scale(1.1);
+    /* box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5); */
+    /* cursor: url('../images/icon.png'), auto; */
+  }
+
+  #contactMe p{
+    font-weight:bold;
+    margin-top:40px;
+    margin-bottom:60px;
+    color:orange;
+  }
+
+  #contactMe h1{
+    
+    font-size:45px;
+  }
+
+
+
+
+
+
+
+

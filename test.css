@@ -1,0 +1,101 @@
+body{
+  text-align: center;
+  margin: 0;
+  background-color: #141314;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.typewriter {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  background-color: #333;
+  padding:40px;
+  /* data-gradient-border: border-end; */
+}
+
+
+.typewriter h1 {
+  color: #eee;
+  font-family: monospace;
+  margin: 0 auto;
+  padding: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid;
+  animation: typing 3s steps(38 ,end) forwards, blink 1s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+
+
+
+
+#stroke h1{
+  
+ color:oklch(0.3 0.14 315 / 1);
+  font-size:230px;
+ -webkit-text-stroke:oklch(56.98% 0.2365 315deg) 2px ;
+}
+
+
+
+
+
+#stroke::selection{
+  background-color:rgb(255, 255, 255);
+  color:rgb(0, 0, 0);
+}
+
+
+.customCursor {
+  padding-left:300px;
+  padding-right:300px;
+}
+.customCursor h1{
+ background-color: azure;
+ padding:20px;
+  box-shadow: #eee 0px 0px 20px;
+
+}
+
+
+.customCursor h1:hover {
+  cursor: url('images/goofyCursor.png'), auto;
+}
+
+main {
+  margin-bottom:200px;
+}
+
+
+
+.circle {
+
+  border:rgb(255, 252, 252) solid 2px;
+  width: 300px;
+  height: 300px;
+  border-radius: 69% 31% 39% 61% / 40% 36% 64% 60%;
+
+ 
+  
+}
+
+
+.light{
+    box-shadow: #eee 0px 0px 20px;
+background-color: azure;
+width: 200px;
+height: 200px;
+position: fixed;
+right:16px;
+bottom:10px;
+}
+
+

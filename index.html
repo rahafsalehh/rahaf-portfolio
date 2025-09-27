@@ -1,148 +1,300 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel ="stylesheet" href="styling/style.css">
-  <script src="scripting/app.js"></script>
-  <link rel="icon" href="images/icon.png">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahaf Saleh | Software Engineer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="boyy.png">
 
-
-  <title>Athul Krishna</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
 </head>
 <body>
-  
-  <nav class="navigation">
-    <div class="box"><p>Athul Krishna</p>
-  <img src="images/athulLogo.png" alt="athul krishna" height="120" width="133"></div>
-    <ul>
-      <li><a class="index" href="#home">home</a></li>
-      <li><a href="#aboutMe">about me</a></li>
-      <li><a href="#projects">projects</a></li>
-      <li><a href="#skills">skills</a></li>
-      <li><a href="#contactMe">contact me</a></li>
-    </ul>
-  </nav>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <i class="fas fa-code"></i>
+                    <img src="boyy.png" alt="rahaf saleh" id="logoImage">
+                    <a class="myName" href="rahaf.html">rahaf saleh</a>
+                </div>
+                <div class="nav-links">
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </nav>
+        </div>
+    </header>
 
-<div class="darkLightMode">
-<button id= "modeButton" onclick="changeMode()">Dark Mode</button>
-</div>
-
-
-<div class="angleBackground">
-<div class="typewriter" id="home">
-  <div>
-  <h1>Hi, my name is  Athul Krishna | <span>Computer Scientist </span> </h1>
-</div>
-
-<div class="socialIcons">
-<a title="LinkedIn" target= "_blank" href="https://www.linkedin.com/in/athul-krishna2005/"><i class="fa-brands fa-linkedin" id="linkedin"></i></a>
-<a title="Github" target= "_blank" href="https://github.com/Akrish101"><i class="fa-brands fa-github" id="github"></i></a>
-</div>
-
-<p>I love creating and experimenting with code 🚀,  other things I like are <span id="myIdentity">Cats</span></p>
-
-</div>
-</div>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
 
 
 
-<div class="test"></div>
+                <img src="crowMan.png" alt="Rahaf Saleh" class="profile-img">
+
+
+            <div class="hero-content">
+
+                <div id="greetingMessage">
+                <h1>yo, I'm rahaf~(*/ω＼*)</h1>
+                </div>
+
+                <p>A <span>(super duper)</span> passionate software engineer who <span>(genuinely) </span>loves experimenting with code, and enthusiastic to build functional applications with cleaner code.</p>
+                <a href="#projects" class="btn">View My Work</a>
+            </div>
+            
+            <div class="social-links">
+                <a target="_blank" href="https://github.com/rahafsalehh"><i class="fab fa-github"></i></a>
+                <a  target="_blank" href="https://www.linkedin.com/in/rahaf-saleh-045941290/"><i class="fab fa-linkedin"></i></a>
+                <a  target="_blank" href="#"><i class="fab fa-codepen"></i></a>
+                <a  target="_blank" href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>About me</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Yo! I'm <span id="rahaf">Rahaf</span>, a software engineer based in Sheffield, South Yorkshire.</h3>
+                    <p >Looking for my <a href="cv.html" id="cv">CV</a>?</p>
+                    <p>I have over 2 years of experience building web applications and solving complex problems with code. I'm passionate about creating user-friendly yet visually exciting applications that make a difference.</p>
+                    <p>When I'm not coding, you can find me working out in the gym, drawing in my room, playing games, or exploring new recipes in the kitchen. <span><img src="boyCursor.png" alt=""></span></p>
+                    <p>I believe in writing clean, maintainable code and am always eager to learn new technologies to improve my skills.</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Coding workspace">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Skills</h2>
+            </div>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3><span class="changeColor"><i class="fas fa-laptop-code"></i></span> <span class="titleHover">Frontend</span></h3>
+                    <ul class="skill-list">
+                    <li><i class="fa-brands fa-html5" id="html"></i>Html 5</li>
+                    <li><i class="fa-brands fa-css3" id="css"></i>Css3</li>
+                    <li><i class="fa-brands fa-js" id="js"></i>Javascript</li>
+                    <li><i class="fa-brands fa-react" id="js"></i>React</li>
+                        
+
+
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3><span class="changeColor"><i class="fas fa-server"></i></span> <span class="titleHover">Backend</span></h3>
+                    <ul class="skill-list">
+
+                    <li><i class="fa-brands fa-python" id="js"></i>Python</li>
+
+                        <li><i id="csharp">C#</i>C Sharp</li>
+                    <li><i class="fa-brands fa-php" id="js"></i>PHP</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3><span class="changeColor"><i class="fas fa-tools"></i></span> <span class="titleHover">Tools & Others</span></h3>
+                    <ul class="skill-list">
+                        <li><i class="fa-brands fa-github" id="github"></i>Github (Collaborative)</li>
+                        <li><i class="fa-brands fa-git-square" id="git"></i>Git (Collaborative) </li>
+                        <li><i class="fa-brands fa-wordpress" id="git"></i>Wordpress (CMS)</li>
+                        <li><i id="mySql">My<span id="orange">SQL&#8482;</span> (Database)</i></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image" id="portfolio">
 
 
 
-<main>
-<div>
-<div class="subTitle" id="aboutMe">ABOUT ME</div>
-
-<div id="aboutMeBox">
-<p>I'm a Computer Science student with a strong interest in tech and problem-solving. Through my degree, I've built solid skills in programming (especially C#), database design, and front-end development. I enjoy working with others and take pride in contributing to projects that make a real impact. Always keen to learn more, I'm excited to bring my skills to a team where I can grow and help build smart, effective solutions.</p>
-</div>
-</div>
-
-
-  <h1 class="subTitle" id="skills" >MY SKILLS</h1>
-  
-  <div class="pfpAndtxt">
-<img src="images/athul.png" alt="Me!" id="athul" height="340" width="360">
-
-<div class="group">
-<i class="fa-brands fa-html5" id="html"></i>
-<p>Html5</p>
-</div>
-
-<div class="group">
-<i class="fa-brands fa-css3" id="css3"></i>
-<p>Css3</p>
-</div>
-
-<div class="group">
-<i class="fa-brands fa-php" id="php"></i>
-<p>Php</p>
-</div>
-
-<div class="group">
-<i class="fa-brands fa-github" id="github"></i>
-<p>Github</p>
-</div>
-
-<div class="group">
-<i class="fa-brands fa-python" id="python"></i>
-<p>Python</p>
-</div>
-
-<div class="group">
-<i class="fa-brands fa-js" id="js"></i>
-<p>Javascript</p>
-</div>
-
-  </div>
-  
-
-<h2 class="subTitle"  id="projects"> PROJECTS</h2>
-
-<div class="projectBox">
-  <div>
-  <img src="images/interpayLogin.png" alt="interpay login" id="interpay" height="400" width="350">
-</div>
-
-  <div class="project">
-    <h1>INTER PAY</h1>
-
-    <div class="projectLanguages">
-  <p><i class="fa-brands fa-html5" id="html"></i></p>
-  <p><i class="fa-brands fa-css3" id="html"></i></p>
-  <p><i class="fa-brands fa-php" id="html"></i></p>
-  </div>
-
-  <p class="projectDescription">InterPay is a payment gateway system that allows users to securely make online transactions. It features a user-friendly interface, supports multiple payment methods, and ensures data security through encryption.</p>
-
-  </div>
-</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Rahaf Saleh</h3>
+                        <p>A personal portfolio to represent my goals with tech</p>
+                        <div class="project-tags">
+                            <span>HTML 5</span>
+                            <span>Javascript</span>
+                            <span>CSS 3</span>
+                            
+                            
+                        </div>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                </div>
 
 
-  <div id="contactMe">
-    <h1>Lets have a <span>Chat</span></h1>
-    <p>akrish1.314@gmail.com</p>
-  <button>Get In Touch</button>
-</div> 
+                <div class="project-card">
+                    <div class="project-image" id="apexLine">
 
 
 
+                    </div>
+                    <div class="project-content">
+                        <h3>ApexLine</h3>
+                        <p>An F1 inspired racing-enthusiast website using python, javascript and html etc.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Flask</span>
+                            <span>OpenAI API</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                </div>
 
-</main>
+
+                <div class="project-card">
+                    <div class="project-image" id="smartpay">
 
 
 
-<footer>
-  <div class="footerLine">
-  <div class="footerContent">
-    <p>&#169; 2025-2026 | Athul Krishna</p> <a title="LinkedIn" target= "_blank" href="https://www.linkedin.com/in/athul-krishna2005/"><i class="fa-brands fa-linkedin" id="linkedin"></i></a>
-<a title="Github" target= "_blank" href="https://github.com/Akrish101"><i class="fa-brands fa-github" id="github"></i></a> 
-  </div> 
-  </div>
-  </footer> 
+                    </div>
+                    <div class="project-content">
+                        <h3>Smart Pay</h3>
+                        <p>A currency transfer application with php and MySQL</p>
+                        <div class="project-tags">
+                            <span>React</span>
+                            
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                            <span>Stripe API</span>
+                        </div>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                </div>
 
+                <div class="project-card">
+                    <div class="project-image" id="landlord">
+
+
+
+                    </div>
+                    <div class="project-content">
+                        <h3>LandLordPro</h3>
+                        <p>A cross-platform Landlord and Tenant property renting application</p>
+                        <div class="project-tags">
+                            <span>Vue.js</span>
+                            <span>Firebase</span>
+                            <span>PWA</span>
+                            <span>CSS3</span>
+                        </div>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                </div>
+             
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Get In Touch</h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's work together!</h3>
+                    <p>I'm always open to discussing new opportunities and interesting projects.</p>
+                    <ul class="contact-details">
+                        <li><i class="fas fa-envelope"></i> rahafsaleh05@gmail.com</li>
+                        <li><i class="fas fa-phone"></i> +44 7577748223</li>
+                        <li><i class="fas fa-map-marker-alt"></i>England Sheffield, South Yorkshire</li>
+                    </ul>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+            <div class="footer-logo">
+                <!-- <i class="fas fa-code"></i> -->
+                <img src="boyy.png" alt="rahaf saleh" id="logoImage">
+                <!-- <span>rahaf saleh</span> -->
+            </div>
+            <div class="social-links">
+                <a target="_blank" href="https://github.com/rahafsalehh"><i class="fab fa-github"></i></a>
+                <a  target="_blank" href="https://www.linkedin.com/in/rahaf-saleh-045941290/"><i class="fab fa-linkedin"></i></a>
+                <a  target="_blank" href="#"><i class="fab fa-codepen"></i></a>
+                <a  target="_blank" href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>&copy; 2025 Rahaf Saleh. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if(targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if(targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Form submission
+        const contactForm = document.querySelector('.contact-form form');
+        if(contactForm) {
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                alert('Thank you for your message! I\'ll get back to you soon.');
+                this.reset();
+            });
+        }
+    </script>
 </body>
 </html>

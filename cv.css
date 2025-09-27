@@ -13,3 +13,23 @@
             height: 800px;
             border: none;
         }
+        
+        .title{
+            display: flex;
+            justify-content: center;
+        }
+        .title h1{
+            margin:10px;
+            color: orange;
+            text-align: center;
+             display:inline-block;
+        }
+
+        .title h1:hover{
+            color:black;
+            background-color:orange;
+            transition:0.4s;
+            border-radius: 4px;
+            cursor: pointer;
+           
+        }

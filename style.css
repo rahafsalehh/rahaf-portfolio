@@ -101,7 +101,7 @@ nav {
 
 /* Hero Section */
 .hero {
-    padding: 600px 0;
+    padding-bottom:600px;
     text-align: center;
     background: url('skyLine.png') 10px -240px;  
     background-size: cover;

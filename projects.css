@@ -1,0 +1,188 @@
+  .project-header {
+            background-color: #f8f8f8;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .project-header h1 {
+            margin-bottom: 10px;
+            font-size: 2.5em;
+            color: #333;
+        }
+
+        .project-header p {
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        .project-content {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .project-section {
+            margin-bottom: 40px;
+        }
+
+        .project-section h2 {
+            color: #222;
+            margin-bottom: 15px;
+        }
+
+        .tech-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .tech-item:hover{
+            color:black;
+            background-color:orange;
+            transition: 0.4s;
+            cursor: pointer;
+
+        }
+
+        .tech-item {
+            background-color: #eee;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .project-links a {
+            display: inline-block;
+            margin-right: 15px;
+            color: #007BFF;
+            font-weight: bold;
+        }
+
+        .project-screenshot {
+            max-width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+
+    .hover:hover{
+    color: black;
+    background-color: #88ff67;
+    display: inline-block;
+    transition: 0.4s;
+    border-radius: 4px;
+    cursor: pointer;
+        }
+
+
+           .project-page {
+      padding: 30px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .project-header{
+        background: transparent;
+
+    }
+
+    .project-header h1 {
+      font-size: 3rem;
+      text-align: center;
+      color: var(--text-light);
+    }
+
+    .project-header p {
+      font-size: 1.2rem;
+      color: var(--text-light);
+      text-align: center;
+      margin-top: 10px;
+      font-style: italic;
+    }
+
+    .project-section {
+      margin-top: 60px;
+    }
+
+    .project-section h2 {
+      font-size: 2rem;
+      color: var(--text-light);
+      margin-bottom: 20px;
+      position: relative;
+    }
+
+    .project-section h2::after {
+      content: '';
+      width: 80px;
+      height: 4px;
+      position: absolute;
+      bottom: -10px;
+      left: 0;
+      border-radius: 2px;
+    }
+
+    .project-section ul {
+      padding-left: 20px;
+      color: var(--text-light);
+    }
+
+    .tech-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 10px;
+    }
+
+    .tech-item {
+      background-color: var(--light-pink);
+      color: var(--accent-orange);
+      padding: 8px 16px;
+      border-radius: 20px;
+      font-weight: bold;
+      font-size: 0.9rem;
+    }
+
+    .project-links a {
+      display: inline-block;
+      background-color: var(--accent-pink);
+      color: var(--text-light);
+      padding: 12px 24px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 600;
+      margin-top: 15px;
+      transition: 0.3s ease;
+      box-shadow: var(--shadow);
+    }
+
+    .project-links a:hover {
+      background-color: var(--text-light);
+      color: #000;
+      transform: translateY(-3px);
+    }
+
+    .project-screenshot {
+      width: 100%;
+      max-width: 900px;
+      margin-top: 20px;
+      border-radius: 10px;
+      box-shadow: var(--shadow);
+    }
+
+
+.project-links a i {
+      margin-right: 8px;
+    }
+
+    #arzooNumber{
+        color:orange;
+        font-weight: bold;
+    }
+
+    #arzooNumber:hover{
+        border-radius:4px;
+        transition: 0.4s;
+        cursor: pointer;
+        background-color: orange;
+        color: black;
+    }

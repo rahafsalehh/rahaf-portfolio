@@ -6,7 +6,7 @@
     <title>Rahaf Saleh | Software Engineer</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" href="boyy.png">
-
+    <link rel="stylesheet" href="contactForm.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mobile.css">
 </head>
@@ -18,7 +18,7 @@
                 <div class="logo">
                     <i class="fas fa-code"></i>
                     <img src="boyy.png" alt="rahaf saleh" id="logoImage">
-                    <a class="myName" href="rahaf.html">rahaf saleh</a>
+                    <a class="myName" href="index.html">rahaf saleh</a>
                 </div>
                 <div class="nav-links">
                     <a href="#about">About</a>
@@ -142,11 +142,13 @@
                         <div class="project-tags">
                             <span>HTML 5</span>
                             <span>Javascript</span>
+                            <span>Github</span>
+                            <span>Vs Code</span>
                             <span>CSS 3</span>
                             
                             
                         </div>
-                        <a href="#" class="btn">View Project</a>
+                        <a target="_blank" href="portfolio.html" class="btn">View Project</a>
                     </div>
                 </div>
 
@@ -162,11 +164,13 @@
                         <p>An F1 inspired racing-enthusiast website using python, javascript and html etc.</p>
                         <div class="project-tags">
                             <span>Python</span>
-                            <span>Flask</span>
-                            <span>OpenAI API</span>
-                            <span>PostgreSQL</span>
+                            <span>HTML5</span>
+                            <span>Vs Code</span>
+                            <span>StreamLit</span>
+                            <span>CSS5</span>
+                            <span>Javascript</span>
                         </div>
-                        <a href="#" class="btn">View Project</a>
+                        <a target="_blank"  href="apexline.html" class="btn">View Project</a>
                     </div>
                 </div>
 
@@ -181,13 +185,15 @@
                         <h3>Smart Pay</h3>
                         <p>A currency transfer application with php and MySQL</p>
                         <div class="project-tags">
-                            <span>React</span>
-                            
-                            <span>Node.js</span>
-                            <span>MongoDB</span>
-                            <span>Stripe API</span>
+                            <span>CSS3</span>
+                            <span>Javascript</span>
+                            <span>Vs Code</span>
+                            <span>Github</span>
+                            <span>MySql</span>
+                            <span>PHP</span>
+                            <span>HTML5</span>
                         </div>
-                        <a href="#" class="btn">View Project</a>
+                        <a target="_blank" href="smartpay.html" class="btn">View Project</a>
                     </div>
                 </div>
 
@@ -201,12 +207,15 @@
                         <h3>LandLordPro</h3>
                         <p>A cross-platform Landlord and Tenant property renting application</p>
                         <div class="project-tags">
-                            <span>Vue.js</span>
-                            <span>Firebase</span>
-                            <span>PWA</span>
+                            <span>Github</span>
+                            <span>Vs Code</span>
+                            <span>PHP</span>
+                            <span>Javascript</span>
+                            <span>MySQL</span>
+                            <span>HTML</span>
                             <span>CSS3</span>
                         </div>
-                        <a href="#" class="btn">View Project</a>
+                        <a target="_blank" href="landlordpro.html" class="btn">View Project</a>
                     </div>
                 </div>
              
@@ -230,23 +239,33 @@
                         <li><i class="fas fa-map-marker-alt"></i>England Sheffield, South Yorkshire</li>
                     </ul>
                 </div>
+
+                                    
+                                
                 <div class="contact-form">
-                    <form>
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" id="name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea id="message" rows="5" required></textarea>
-                        </div>
-                        <button type="submit" class="btn">Send Message</button>
+                    <form action="https://formspree.io/f/mvgwzqko" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="_replyto" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+
+                    <input type="hidden" name="_redirect" value="https://yourdomain.com/thank-you.html">
+
+                    <button type="submit" class="btn">Send Message</button>
                     </form>
+
                 </div>
+
             </div>
         </div>
     </section>

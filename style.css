@@ -407,6 +407,11 @@ font-weight:bolder;
     background-size: cover;
 }
 
+#cantorCollege{
+    background: url(cantor.png) -10px 0px;
+    background-size: cover;
+}
+
 #smartpay{
     background: url(smartpay.png) -20px 0px;
     background-size: cover;

@@ -21,7 +21,7 @@
 
 body::selection{
     background-color:rgb(255, 54, 175);
-    color:rgb(255, 233, 233);
+    color:rgb(255, 255, 255);
   }
 
 
@@ -404,6 +404,11 @@ font-weight:bolder;
 
 #apexLine{
     background: url(apexline.png) -10px 0px;
+    background-size: cover;
+}
+
+#rafaAnimation{
+    background: url(rafaAnimation.png) -10px 0px;
     background-size: cover;
 }
 
